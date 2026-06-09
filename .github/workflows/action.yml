@@ -13,4 +13,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Lets try this way now,
-          lets see how it goes.
+          echo lets see how it goes.
