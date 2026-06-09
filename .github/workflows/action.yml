@@ -1,11 +1,9 @@
 name: CI
 on:
   workflow_dispatch:
-
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
 
@@ -14,4 +12,5 @@ jobs:
 
       - name: Run a multi-line script
         run: |
-          echo Let's try this way now.
+          echo Lets try this way now,
+          lets see how it goes.
