@@ -22,3 +22,4 @@ jobs:
           echo it is running on $ENVIRONMENT
           echo the application name is ${{vars.APP_NAME}}
           echo the repo name is ${{github.repository}}
+          echo the secret key of AWS is {{vars.SECRET_KEY}}
