@@ -18,3 +18,4 @@ jobs:
         run: |
           echo Lets try this way now,
           echo lets see how it goes.
+          echo the application name is $APP_NAME
