@@ -20,5 +20,5 @@ jobs:
           echo Lets try this way now,
           echo lets see how it goes.
           echo it is running on $ENVIRONMENT
-          echo the application name is $APP_NAME
+          echo the application name is ${{APP_NAME}}
           echo the repo name is ${{github.repository}}
