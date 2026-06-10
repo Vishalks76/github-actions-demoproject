@@ -7,6 +7,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      ENVIRONMENT: Dev
     steps:
       - uses: actions/checkout@v4
 
@@ -17,4 +19,5 @@ jobs:
         run: |
           echo Lets try this way now,
           echo lets see how it goes.
+          echo it is running on $ENVIRONMENT
           echo the application name is $APP_NAME
